@@ -97,15 +97,9 @@ function Calc()
           display.innerHTML = res;
           break;
   }
-
-  console.log(num1);
-  console.log(op);
-  console.log(num2);
-  console.log(res);
-
+  
   expressao = [res + ''];
-  console.log(expressao);
-
+  
   num1 = "";
   num2 = "";
   op = "";
